@@ -45,11 +45,40 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="XUC-Dw-zQb" id="ZdP-i3-gmr"/>
+                        <segue destination="g9Q-37-OCV" kind="show" identifier="next" id="1sJ-x2-ECZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="9MW-hf-Vf8">
+            <objects>
+                <viewController id="g9Q-37-OCV" customClass="NextViewController" customModule="ProjectTT" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hKo-vD-nGw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebl-rx-iL1">
+                                <rect key="frame" x="39" y="236" width="335" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pxy-Je-263"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sQ1-Kq-NRh"/>
+                    <connections>
+                        <outlet property="label" destination="Ebl-rx-iL1" id="YMF-rg-Imv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OJw-vA-hfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860.86956521739137" y="121.875"/>
         </scene>
     </scenes>
 </document>
