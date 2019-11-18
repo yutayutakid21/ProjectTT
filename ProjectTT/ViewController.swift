@@ -29,6 +29,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //20191118　近藤記入１
+        
         tableView.delegate = self
         tableView.dataSource = self
     }
